@@ -1,0 +1,39 @@
+#fh5co-gallery {
+    padding: 7em 0;
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #fh5co-gallery > .fh5co-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+  }
+  #fh5co-gallery > .container {
+    z-index: 10;
+    position: relative;
+  }
+  #fh5co-gallery .fh5co-heading .heading {
+    position: relative;
+    padding-top: 30px !important;
+    color: #fff;
+  }
+  #fh5co-gallery .fh5co-heading .heading:before, #fh5co-gallery .fh5co-heading .heading::before {
+    height: 64px;
+    width: 49px;
+    position: absolute;
+    content: "";
+    background: url(../images/0402-chef.png) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -24px;
+  }
+  #fh5co-gallery .fh5co-heading .sub-heading {
+    color: #a99c92;
+  }
